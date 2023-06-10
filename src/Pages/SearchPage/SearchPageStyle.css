@@ -1,0 +1,64 @@
+.search_page_area{
+    width: 100vw;
+}
+
+.title_area, .art_row{
+    display: flex;
+    justify-content: center;
+}
+
+.title_area{
+    padding: 20px 0;
+}
+
+.art_row{
+    width: 100%;
+}
+
+.art_row img{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px 15px 5px;
+}
+
+.art_gallery_area{
+    background-color: #FDFAF7;
+    width: 55%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+}
+
+.art_row .navigation a{
+    color: black;
+}
+
+.bussiness_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bussiness_area{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+}
+
+.bussiness_right_row{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding: 20px;
+}
+
+.bussiness_right_row .bussiness_button{
+    background-color: #D9D8D8;
+    padding: 20px;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

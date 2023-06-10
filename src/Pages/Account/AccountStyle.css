@@ -1,0 +1,69 @@
+.account_setting_area{
+    padding: 20px 100px;
+}
+
+.account_setting_image{
+    display: flex;
+    justify-content: center;
+}
+
+.account_setting_image img{
+    width: 150px;
+    height: 150px;
+}
+
+.account_setting_input{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+}
+
+.account_setting_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.account_setting_button button{
+    width: 150px;
+    border-radius: 30px;
+}
+
+.bookmark_area{
+    padding: 20px 100px;
+}
+
+.bookmark_block_area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark_block{
+    width: 120px;
+    height: 120px;
+    background-color: #ABF69E;
+}
+
+.art_request_form{
+    padding: 20px 100px;
+}
+
+.art_request_input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.art_request_input label{
+    font-size: 28px;
+}
+
+.art_request_button{
+    display: flex;
+    justify-content: center;
+}
+
+.art_request_button button{
+    width: 150px;
+    border-radius: 25px;
+}

@@ -1,0 +1,39 @@
+.name_input_area, .subject_input_area, .message_input_area{
+    display: flex;
+    justify-content: center;
+}
+
+.about_area, .subject_input_area, .message_input_area{
+    padding: 30px 20px;
+}
+
+.name_input_area .input_name{
+    padding: 0 50px;
+}
+
+.input_name{
+    display: flex;
+    flex-direction: column;
+}
+
+.subject_input_area .input_subject{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_subject input{
+    width: 755px;
+}
+
+.message_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.message_input textarea{
+    width: 755px;
+}
+
+.message_input button{
+    width: 150px;
+}
