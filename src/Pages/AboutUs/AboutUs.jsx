@@ -1,10 +1,13 @@
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
+
+import background_about from '../../Assets/Images/background_about.png'
+
 import "./AboutStyle.css";
 const AboutUs = () => {
   return (
     <>
-      <Header />
+      <Header background = {background_about} height = "500px" title = "ABOUT US"/>
       <div className="about_area">
         <div className="name_input_area">
           <div className="input_name">

@@ -2,9 +2,11 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import "./HomePageStyle.css";
 
-import art_1 from "../../Assets/Images/art_1.jpeg";
+import background_home from "../../Assets/Images/background_home.png";
+
+import art_1 from "../../Assets/Images/art_1.png";
 import art_2 from "../../Assets/Images/art_2.jpeg";
-import art_3 from "../../Assets/Images/art_3.jpeg";
+import art_3 from "../../Assets/Images/art_3.png";
 import art_4 from "../../Assets/Images/art_4.jpeg";
 import art_5 from "../../Assets/Images/art_5.jpeg";
 import art_6 from "../../Assets/Images/art_6.jpeg";
@@ -15,7 +17,7 @@ import art_9 from "../../Assets/Images/art_9.jpeg";
 const Homepage = () => {
   return (
     <>
-      <Header />
+      <Header background = {background_home} height = "500px" title="SIMPLE ART BEAUTIFUL ART"/>
       <div className="homepage_area">
         <div className="title_area">
           <h2>RECENT PROJECT</h2>

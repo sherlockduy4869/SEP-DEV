@@ -3,10 +3,12 @@ import Footer from "../../Components/Footer/Footer";
 import "./AccountStyle.css";
 import user from "../../Assets/Images/user.webp";
 
+import background_account from "../../Assets/Images/background_account.png";
+
 const Account = () => {
   return (
     <>
-      <Header />
+      <Header background = {background_account} height = "300px" title="ACCOUNT"/>
       <div className="account_area">
         <div className="account_setting_area">
           <h3>ACCOUNT SETTING</h3>
